@@ -12,6 +12,7 @@
 		7228041C1A84269A00951C7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7228041B1A84269A00951C7B /* Images.xcassets */; };
 		7228042B1A84269A00951C7B /* Queue_sadillaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7228042A1A84269A00951C7B /* Queue_sadillaTests.m */; };
 		722804351A84289F00951C7B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722804341A84289F00951C7B /* Default-568h@2x.png */; };
+		A6393F054A92DBAD7BC23775 /* libPods-Queue-sadillaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D428491CB00DF839027495A4 /* libPods-Queue-sadillaTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1351BD1057AA9735D9032706 /* Pods-Queue-sadillaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Queue-sadillaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Queue-sadillaTests/Pods-Queue-sadillaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C00CBCFB69A7731FB21FDBA /* Pods-Queue-sadillaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Queue-sadillaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Queue-sadillaTests/Pods-Queue-sadillaTests.release.xcconfig"; sourceTree = "<group>"; };
 		7228040B1A84269A00951C7B /* Queue-sadilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Queue-sadilla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7228040F1A84269A00951C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		722804101A84269A00951C7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		722804291A84269A00951C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7228042A1A84269A00951C7B /* Queue_sadillaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue_sadillaTests.m; sourceTree = "<group>"; };
 		722804341A84289F00951C7B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D428491CB00DF839027495A4 /* libPods-Queue-sadillaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Queue-sadillaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,12 +53,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6393F054A92DBAD7BC23775 /* libPods-Queue-sadillaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		206BDCF5B561312CF3A1078A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D428491CB00DF839027495A4 /* libPods-Queue-sadillaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		722804021A84269A00951C7B = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +75,8 @@
 				7228040D1A84269A00951C7B /* Queue-sadilla */,
 				722804271A84269A00951C7B /* Queue-sadillaTests */,
 				7228040C1A84269A00951C7B /* Products */,
+				B8887AA04698C6968A591F0D /* Pods */,
+				206BDCF5B561312CF3A1078A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +126,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B8887AA04698C6968A591F0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1351BD1057AA9735D9032706 /* Pods-Queue-sadillaTests.debug.xcconfig */,
+				3C00CBCFB69A7731FB21FDBA /* Pods-Queue-sadillaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 722804311A84269A00951C7B /* Build configuration list for PBXNativeTarget "Queue-sadillaTests" */;
 			buildPhases = (
+				A32C84B9B5BC6BB395390B1B /* Check Pods Manifest.lock */,
 				722804201A84269A00951C7B /* Sources */,
 				722804211A84269A00951C7B /* Frameworks */,
 				722804221A84269A00951C7B /* Resources */,
+				3D0F39D03481B7B2CA3DDFB7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +230,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D0F39D03481B7B2CA3DDFB7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Queue-sadillaTests/Pods-Queue-sadillaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A32C84B9B5BC6BB395390B1B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		722804071A84269A00951C7B /* Sources */ = {
@@ -332,6 +391,7 @@
 		};
 		722804321A84269A00951C7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1351BD1057AA9735D9032706 /* Pods-Queue-sadillaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -351,6 +411,7 @@
 		};
 		722804331A84269A00951C7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C00CBCFB69A7731FB21FDBA /* Pods-Queue-sadillaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -383,6 +444,7 @@
 				722804301A84269A00951C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		722804311A84269A00951C7B /* Build configuration list for PBXNativeTarget "Queue-sadillaTests" */ = {
 			isa = XCConfigurationList;
@@ -391,6 +453,7 @@
 				722804331A84269A00951C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
