@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		722804111A84269A00951C7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 722804101A84269A00951C7B /* main.m */; };
 		722804141A84269A00951C7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 722804131A84269A00951C7B /* AppDelegate.m */; };
-		7228041A1A84269A00951C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722804181A84269A00951C7B /* Main.storyboard */; };
 		7228041C1A84269A00951C7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7228041B1A84269A00951C7B /* Images.xcassets */; };
-		7228041F1A84269A00951C7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7228041D1A84269A00951C7B /* LaunchScreen.xib */; };
 		7228042B1A84269A00951C7B /* Queue_sadillaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7228042A1A84269A00951C7B /* Queue_sadillaTests.m */; };
 /* End PBXBuildFile section */
 
@@ -31,9 +29,7 @@
 		722804101A84269A00951C7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		722804121A84269A00951C7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		722804131A84269A00951C7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		722804191A84269A00951C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7228041B1A84269A00951C7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7228041E1A84269A00951C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		722804241A84269A00951C7B /* Queue-sadillaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Queue-sadillaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		722804291A84269A00951C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7228042A1A84269A00951C7B /* Queue_sadillaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue_sadillaTests.m; sourceTree = "<group>"; };
@@ -80,9 +76,7 @@
 			children = (
 				722804121A84269A00951C7B /* AppDelegate.h */,
 				722804131A84269A00951C7B /* AppDelegate.m */,
-				722804181A84269A00951C7B /* Main.storyboard */,
 				7228041B1A84269A00951C7B /* Images.xcassets */,
-				7228041D1A84269A00951C7B /* LaunchScreen.xib */,
 				7228040E1A84269A00951C7B /* Supporting Files */,
 			);
 			path = "Queue-sadilla";
@@ -194,8 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7228041A1A84269A00951C7B /* Main.storyboard in Resources */,
-				7228041F1A84269A00951C7B /* LaunchScreen.xib in Resources */,
 				7228041C1A84269A00951C7B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,25 +228,6 @@
 			targetProxy = 722804251A84269A00951C7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		722804181A84269A00951C7B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				722804191A84269A00951C7B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7228041D1A84269A00951C7B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7228041E1A84269A00951C7B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7228042C1A84269A00951C7B /* Debug */ = {
