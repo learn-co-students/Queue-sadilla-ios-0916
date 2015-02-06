@@ -10,4 +10,10 @@
 
 @interface FISQueue : NSObject
 
+- (BOOL)isEmpty;
+- (void)enqueue:(id)anItem;
+- (id)dequeue;
+- (NSUInteger)size;
+- (id)peek;
+
 @end
