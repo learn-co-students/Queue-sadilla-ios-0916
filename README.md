@@ -19,4 +19,4 @@ Wikipedia has a great article on queues as a computer science data structure:
 Make an FISQueue, make the tests pass! :)
 
 
-<a href='https://learn.co/lessons/Queue-sadilla' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/Queue-sadilla' title='Queue-sadilla'>Queue-sadilla</a> on Learn.co and start learning to code for free.</p>
